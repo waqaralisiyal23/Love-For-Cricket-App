@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayersActivity">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/team_one_name"
+                android:text="@string/team_one"
+                android:background="@color/colorPrimary"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:elevation="8dp"
+                android:layout_marginRight="3dp"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/team_two_name"
+                android:text="@string/team_two"
+                android:background="@color/colorPrimary"
+                android:textSize="18sp"
+                android:layout_marginLeft="3dp"
+                android:textStyle="bold"
+                android:elevation="8dp"
+                android:textColor="@color/colorWhite"
+                android:textAlignment="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/team_one_players"
+                android:textSize="16sp"
+                android:textColor="@color/colorBlack"
+                android:background="@drawable/border"
+                android:layout_weight="1"
+                android:padding="4dp"
+                android:layout_marginRight="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/team_two_players"
+                android:textSize="16sp"
+                android:padding="4dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/colorBlack"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <TableLayout-->
+<!--        android:stretchColumns="2"-->
+<!--        android:padding="10dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TableRow android:layout_weight="1">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/team_one_name"-->
+<!--                android:text="@string/team_one"-->
+<!--                android:background="@color/colorPrimary"-->
+<!--                android:textSize="18sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:elevation="8dp"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:textAlignment="center"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/team_two_name"-->
+<!--                android:text="@string/team_two"-->
+<!--                android:background="@color/colorPrimary"-->
+<!--                android:textSize="18sp"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:elevation="8dp"-->
+<!--                android:textColor="@color/colorWhite"-->
+<!--                android:textAlignment="center"-->
+<!--                android:layout_gravity="center_horizontal"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </TableRow>-->
+
+<!--        <TableRow android:layout_weight="1">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/team_one_players"-->
+<!--                android:textSize="16sp"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:background="@drawable/border"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_marginRight="3dp"-->
+<!--                android:layout_column="0"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/team_two_players"-->
+<!--                android:textSize="16sp"-->
+<!--                android:layout_marginLeft="3dp"-->
+<!--                android:textColor="@color/colorBlack"-->
+<!--                android:layout_weight="1"-->
+<!--                android:background="@drawable/border"-->
+<!--                android:layout_column="1"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+<!--        </TableRow>-->
+
+<!--    </TableLayout>-->
+
+</LinearLayout>

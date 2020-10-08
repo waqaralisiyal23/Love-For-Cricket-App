@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoveForCricket</string>
+    <string name="team_one">"Team 1 "</string>
+    <string name="team_two">"Team 2 "</string>
+    <string name="match_type">Match Type</string>
+    <string name="match_status">Match Status</string>
+    <string name="date">Date</string>
+    <string name="score">Score</string>
+    <string name="description">Description</string>
+    <string name="fielding_summary">Fielding Summary</string>
+    <string name="bowling_summary">Bowling Summary</string>
+    <string name="batting_summary">Batting Summary</string>
+    <string name="results">Results</string>
+</resources>
